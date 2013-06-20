@@ -126,4 +126,22 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/semc/anzu/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/anzu/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/anzu/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar
+    vendor/semc/anzu/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar \
+	vendor/semc/anzu/proprietary/app/ProfilerPlaybackTools.apk:system/app/ProfilerPlaybackTools.apk \
+	vendor/semc/anzu/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
+	vendor/semc/anzu/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+	vendor/semc/anzu/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+	vendor/semc/anzu/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+	vendor/semc/anzu/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/semc/anzu/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	vendor/semc/anzu/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+	vendor/semc/anzu/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+	vendor/semc/anzu/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+	vendor/semc/anzu/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+	vendor/semc/anzu/proprietary/lib/libCB.so:system/lib/libCB.so \
+	vendor/semc/anzu/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+	vendor/semc/anzu/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+	vendor/semc/anzu/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+	vendor/semc/anzu/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
+
+
